@@ -1,1 +1,25 @@
-
+h1 {
+	color: black;
+	font-size:25px;
+	text-align:center;
+	}
+html, body {
+	background-image: url('https://upload.wikimedia.org/wikipedia/en/8/8f/Pablo_Picasso,_1909-10,_Figure_dans_un_Fauteuil_(Seated_Nude,_Femme_nue_assise),_oil_on_canvas,_92.1_x_73_cm,_Tate_Modern,_London.jpg');
+	font-family: TImes New Roman;
+}
+p {
+	font-size: 20px;
+	text-align:center;
+}
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+	cursor: pointer;
+    display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	padding: 40px 80px;
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,4 +1,4 @@
-body{ background-color: #ef562d;
+body{ background-color: #eae0c8;
 }
 body{ 
    width: 100%;
@@ -119,7 +119,7 @@ header, footer {
   width: 100%;
   display: block;
   height: 70px;
-  background: black;
+  background: #f7cac9;
   margin-bottom: 5rem;
 }
 

@@ -12,7 +12,7 @@ body:before, body:after {
 body:after {
   clear: both;
 }
-button
+button {
 	padding: 20px 40px
 	background: none
 	border: none

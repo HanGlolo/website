@@ -105,7 +105,6 @@ img {
 }
 
 body {
-   background-image: Url("images/sky.gif")
   font-family: 'Roboto', sans-serif;
 }
 
@@ -118,7 +117,7 @@ header, footer {
   width: 100%;
   display: block;
   height: 100px;
-  background: #E78B90;
+  background: #f7cac9;
   margin-bottom: 5rem;
 }
 

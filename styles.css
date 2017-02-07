@@ -1,5 +1,8 @@
-body{ 
+html, body{ 
   background-image: url("sky.gif")
+   width: 100%;
+  *zoom: 1;
+  display: block;
 }
 body:before, body:after {
   content: "";

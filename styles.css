@@ -1,5 +1,6 @@
-html, body{ 
-  background-color: #E78B90;
+body{ background-color: #E78B90;
+}
+body{ 
    width: 100%;
   *zoom: 1;
   display: block;

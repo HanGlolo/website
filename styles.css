@@ -1,5 +1,5 @@
 body{ 
-  background-image:("sky.gif")
+  background-image: url("sky.gif")
 }
 body:before, body:after {
   content: "";

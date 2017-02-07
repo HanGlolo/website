@@ -1,7 +1,5 @@
 body{ 
-  background-image: url:("sky.gif")
-  *zoom: 1;
-  display: block;
+  background-image:("sky.gif")
 }
 body:before, body:after {
   content: "";

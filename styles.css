@@ -1,10 +1,10 @@
-body{
-  width: 100%;
+body{ 
+  background-image: url:("sky.gif")
   *zoom: 1;
   display: block;
 }
 body:before, body:after {
-  content: "sky.gif";
+  content: "";
   display: table;
 }
 body:after {

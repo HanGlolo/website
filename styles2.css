@@ -11,6 +11,9 @@ p {
 	font-size: 20px;
 	text-align:center;
 }
+#anything {
+	background: 0.5;
+}
 .button {
     background-color: black;
     border: none;

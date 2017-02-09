@@ -119,7 +119,7 @@ header, footer {
   width: 100%;
   display: block;
   height: 70px;
-  background: #f7cac9;
+  background-image:url("picasso.jpg");
   margin-bottom: 5rem;
 }
 

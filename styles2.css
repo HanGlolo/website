@@ -22,11 +22,9 @@ footer {
     padding: 20px;
     margin-top: 20px;
     color: #ffffff;
-    background-color: #e8491d;
     text-align: center;
 }
 header {
-    background: #35424a;
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
@@ -37,6 +35,7 @@ header, footer {
   display: block;
   height: 150px;
   margin-bottom: 5rem;
+  border-top: #000000 3px solid;
 }
 header li {
     float: left;
@@ -61,7 +60,210 @@ header .highlight, header .current a {
     font-weight: bold;
 }
 
-header a:hover {
-    color:#cccccc;
-    font-weight: bold;
+.btn {
+  display: inline-block;
+  padding: 6.66667px 10px;
+  line-height: 1.2;
+  font-weight: normal;
+  background-color: #BDBDBD;
+  border: 0;
+  border-radius: 6px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.btn:hover, a .btn:hover, .btn.active {
+  background-color: #a4a4a4;
+  border-color: #a4a4a4;
+  text-decoration: none;
+}
+
+.btn-primary {
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #9E9E9E;
+  border-color: #9E9E9E;
+  color: #fff;
+}
+
+.btn-secondary:hover, a .btn-secondary:hover, .btn-secondary.active {
+  background-color: #787878;
+  border-color: #787878;
+}
+
+.btn:active, .btn.active {
+  outline: 0;
+}
+
+.btn.disabled, .btn[disabled] {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  box-shadow: none;
+}
+
+.btn.full {
+  width: 100%;
+}
+
+.btn-skinny {
+  padding: 0.5em 1em;
+  font-size: 0.75em;
+  line-height: normal;
+}
+.btn-skinny.full {
+  width: 100%;
+}
+
+.btn-large {
+  padding: 0.75em 2em;
+  font-size: 1em;
+  line-height: normal;
+}
+.btn-large.full {
+  width: 100%;
+}
+
+.btn-block, input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block {
+  display: block;
+  width: 100%;
+  margin-right: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+button, .btn {
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  background-image: none;
+  -webkit-appearance: none;
+}
+
+.btn:last-child,
+input.btn {
+  margin-right: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+ul li {
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 97.91667%;
+  margin: 0 1.04167%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding: 3rem 0;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+@media (min-width: 400px) {
+  ul li {
+    display: inline;
+    float: left;
+    width: 47.91667%;
+    margin: 0 1.04167%;
+    padding: 5rem 0;
+  }
+}
+@media (min-width: 600px) {
+  ul li {
+    display: inline;
+    float: left;
+    width: 31.25%;
+    margin: 0 1.04167%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 3rem 0;
+  }
+}
+ul li .portrait {
+  pointer-events: none;
+  position: absolute;
+  width: 75%;
+  top: 50%;
+  left: 3rem;
+  -webkit-transform: translateY(-55%) scale(0.95);
+          transform: translateY(-55%) scale(0.95);
+  opacity: 0;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  max-width: 300px;
+}
+@media (min-width: 600px) {
+  ul li .portrait {
+    width: 50%;
+  }
+}
+@media (min-width: 800px) {
+  ul li .portrait {
+    width: 35%;
+  }
+}
+ul h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  margin-top: 0;
+  margin-bottom: -9px;
+}
+@media (min-width: 400px) {
+  ul h2 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 800px) {
+  ul h2 {
+    font-size: 3rem;
+  }
+}
+ul .name {
+  position: relative;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+ul .name:after {
+  content: "";
+  border-bottom: 3px solid #4e9398;
+  box-shadow: inset 0 -1px 0 #4e9398;
+  -webkit-transition: box-shadow 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+  transition: box-shadow 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+  display: inline-block;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  display: block;
+  width: 100%;
+  min-height: 2rem;
+  z-index: -1;
+}
+ul .name:hover:after, ul .name:focus:after, ul .name:active:after {
+  box-shadow: inset 0 -9px 0 #4e9398;
+  border-bottom: 3px solid #4e9398;
+}
+ul a,
+ul a:visited,
+ul a:hover,
+ul a:focus,
+ul a:active {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
 }

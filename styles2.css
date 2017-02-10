@@ -25,9 +25,43 @@ footer {
     background-color: #e8491d;
     text-align: center;
 }
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #000000 3px solid;
+}
 header, footer {
   width: 100%;
   display: block;
   height: 150px;
   margin-bottom: 5rem;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding { 
+    float: left;
+}
+    
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+ 
+header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color:#cccccc;
+    font-weight: bold;
 }

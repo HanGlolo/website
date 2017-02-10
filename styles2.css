@@ -25,6 +25,7 @@ footer {
     text-align: center;
 }
 header {
+    color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #000000 3px solid;
@@ -54,9 +55,9 @@ header nav {
     margin-top: 10px;
 }
  
-header hover:{
-  box-shadow: inset 0 -9px 0 #4e9398;
-  border-bottom: 3px solid #4e9398
+header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
 }
 
 .btn {

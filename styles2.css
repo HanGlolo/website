@@ -54,7 +54,7 @@ header nav {
     margin-top: 10px;
 }
  
-header hover:after, ul .name:focus:after, ul .name:active:after {
+header hover:{
   box-shadow: inset 0 -9px 0 #4e9398;
   border-bottom: 3px solid #4e9398
 }

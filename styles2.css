@@ -11,18 +11,23 @@ p {
 	font-size: 20px;
 	text-align:center;
 }
-#anything {
-	background: 0.5;
+ul#readinglogs li {
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
 }
-.button {
-    background-color: black;
-    border: none;
-    color: white;
-	cursor: pointer;
-    display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	padding: 40px 80px;
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
     text-align: center;
-    text-decoration: none;
+}
+header, footer {
+  width: 100%;
+  display: block;
+  height: 150px;
+  margin-bottom: 5rem;
 }

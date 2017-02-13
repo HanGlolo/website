@@ -60,6 +60,12 @@ ul.topnav li a:hover {background-color: #4e9398;}
 	padding-left: 200px;
 }
 p {
-	color:white;
-	
+	color:white;	
+}
+div {
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: justify;
 }

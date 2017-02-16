@@ -59,6 +59,12 @@ ul.topnav li a:hover {background-color: #4e9398;}
 	height: 250px;
 	padding-left: 200px;
 }
+.led2{
+	width: 450px;
+	height: 250px;
+	padding-left: 800px;
+	padding-top:100
+}
 p {
 	color:white;	
 }
